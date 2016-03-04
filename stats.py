@@ -1,19 +1,20 @@
+import numpy as np
+import scipy as sp
+import pandas as p
 import urllib
 import json
 import socket
 import os
 import time
+import sys
 from datetime import *
-import pandas as p
-import numpy as np
-import scipy as sp
 from scipy.stats import norm
 from scipy.stats import multivariate_normal
 from scipy.stats import chi2
 from scipy.stats import laplace
 from scipy.stats import percentileofscore
 from random import randint
-        
+
 class lin_reg:
     def __init__(self,x_data,y_data,y_int):
 
