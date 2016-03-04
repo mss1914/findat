@@ -1,7 +1,9 @@
 # findat
 Easily retrieve, store, and analyze financial data
 
-Currently this package is broken out into two modules: 'finret' and 'finstat'.
+#This package is still being developed
+
+Currently, there are two modules: 'finret' and 'finstat'.
 To use this package, you will need to have numpy, scipy, and pandas packages installed as well.
 
 finret makes retrieving data from web sources like Yahoo, The St. Louis FED Database FRED, and Robert Shiller's database easy to do. All data is returned as a pandas dataframe.
